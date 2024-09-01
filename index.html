@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Reader</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>QR Code Reader</h1>
+      <div class="scanner">
+        <video id="video" class="video" autoplay></video>
+        <button id="startButton" class="btn">Start Scanning</button>
+      </div>
+
+      <div class="upload">
+        <h3>Or upload a QR code image:</h3>
+        <input type="file" id="fileInput" accept="image/*" />
+      </div>
+
+      <div class="result">
+        <h2>Decoded Content:</h2>
+        <p id="output">No QR code detected yet.</p>
+        <button id="saveButton" class="btn">Save Decoded Content</button>
+        <a
+          id="openLink"
+          href="#"
+          target="_blank"
+          class="btn"
+          style="display: none"
+          >Open Link</a
+        >
+      </div>
+    </div>
+
+    <!-- Include jsQR library -->
+    <script src="jsQR.js"></script>
+    <!-- Main JavaScript -->
+    <script src="app.js"></script>
+  </body>
+</html>
