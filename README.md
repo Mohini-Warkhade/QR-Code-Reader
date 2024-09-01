@@ -5,14 +5,14 @@ A web-based QR Code Reader application built using HTML, CSS, and JavaScript. Th
 ## Features
 
 1) QR Code Scanning : Scan QR codes directly using the device's camera.
-2) 
-3) Image Upload : Upload an image containing a QR code to decode its content.
-4) 
-5) Decoded Content Display : Shows the decoded text or URL from the QR code.
-6) 
-7) Save Decoded Information : Save the decoded content as a text document.
-8) 
-9) Open Links Directly : Provides an option to open URLs directly from the application.
+ 
+2) Image Upload : Upload an image containing a QR code to decode its content.
+
+3) Decoded Content Display : Shows the decoded text or URL from the QR code.
+
+4) Save Decoded Information : Save the decoded content as a text document.
+ 
+5) Open Links Directly : Provides an option to open URLs directly from the application.
 
 ## Technologies Used
 
