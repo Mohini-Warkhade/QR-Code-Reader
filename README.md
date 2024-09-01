@@ -41,3 +41,5 @@ A web-based QR Code Reader application built using HTML, CSS, and JavaScript. Th
 - Clone this repository to your local machine.
   
 - You can also download the jsQR library from the https://github.com/cozmo/jsQR/tree/master/dist or via npm and place the jsQR.js file in your project directory.
+
+- Open the index.html file in your web browser to start the QR Code Reader application.
